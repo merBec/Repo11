@@ -16,7 +16,7 @@ function multiplyArrayFunction(myArray) {
       product *= myArray[i][j];
     }
   }
-  arr.push([product, sum]);
+  arr.push(product, sum);
   return arr;
 }
 console.log(multiplyArrayFunction(myArr3));
